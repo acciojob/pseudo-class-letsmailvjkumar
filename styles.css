@@ -2,9 +2,11 @@
 p{
 	display:inline;
 }
-p:first-child{
-	color:rgb(255, 0, 0);
+div::before{
+	content:"Before Element";
+	color:rgb(255,0,0);
 }
-p:last-child{
-	color:rgb(255, 0, 0);
+div::after {
+  content: "After Element";
+  color: rgb(255, 0, 0);
 }
