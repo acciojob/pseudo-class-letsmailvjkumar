@@ -3,8 +3,8 @@ p{
 	display:inline;
 }
 p:first-child{
-	color:red;
+	color:rgb(255, 0, 0);
 }
 p:last-child{
-	color:red;
+	color:rgb(255, 0, 0);
 }
