@@ -1,5 +1,8 @@
 /*  your css code here. If applicable */
-p::first-letter{
-	color:red;
+div{
+	display:inline;
+}
+.container{
 	font-size:xx-large;
+	color:red;
 }
